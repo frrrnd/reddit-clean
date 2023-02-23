@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Clean - Extension for Google Chrome and Chrome-based browsers.</title>
+    <meta name="theme-color" content="#6350D1">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top-heading">
+            <div class="site-name">
+                <p>Reddit Clean</p>
+            </div>
+
+            <div class="theme-switcher">
+                <label for="theme" class="label-theme">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 14C11.0609 14 12.0783 13.5786 12.8284 12.8284C13.5786 12.0783 14 11.0609 14 10C14 8.93913 13.5786 7.92172 12.8284 7.17157C12.0783 6.42143 11.0609 6 10 6V14Z"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10C0 15.523 4.477 20 10 20C15.523 20 20 15.523 20 10C20 4.477 15.523 0 10 0ZM10 2V6C8.93913 6 7.92172 6.42143 7.17157 7.17157C6.42143 7.92172 6 8.93913 6 10C6 11.0609 6.42143 12.0783 7.17157 12.8284C7.92172 13.5786 8.93913 14 10 14V18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2Z"/>
+                        </svg>
+                        
+                    <input class="theme-toggle sw" id="theme" type="checkbox">
+                </label>
+            </div>
+        </div>
+        
+        <header class="header">
+            <div class="wrap">
+                <h1>Minimalist reddit feed experience.</h1>
+                <h2>Extension for Google Chrome and chrome-based browsers. <br> 
+                    Available for <b>Light</b> and <b>Dark</b> Mode.
+                </h2>
+
+                <a href="#" target="_blank" class="btn-install">
+                    Install 
+                    <i class="arrow-icon">
+                        <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.242494 10.7826C0.0808314 10.6377 0 10.4661 0 10.2678C0 10.07 0.0808314 9.89855 0.242494 9.75362L4.97921 5.50725L0.226328 1.24638C0.0754426 1.11111 0 0.942029 0 0.73913C0 0.536232 0.0808314 0.362319 0.242494 0.217391C0.404157 0.0724638 0.595566 0 0.81672 0C1.03744 0 1.22864 0.0724638 1.3903 0.217391L6.82217 5.10145C6.88684 5.15942 6.93275 5.22222 6.95991 5.28986C6.98664 5.35749 7 5.42995 7 5.50725C7 5.58454 6.98664 5.657 6.95991 5.72464C6.93275 5.79227 6.88684 5.85507 6.82217 5.91304L1.37413 10.7971C1.22325 10.9324 1.03744 11 0.81672 11C0.595566 11 0.404157 10.9275 0.242494 10.7826Z"/>
+                            </svg>
+                            
+                    </i>
+                </a>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="preview-wrapper">
+                <div class="wrap">
+                    <figure>
+                        <img id="image-preview" src="assets/images/preview-dark.jpg" alt="Preview Dark Mode">
+                    </figure>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
